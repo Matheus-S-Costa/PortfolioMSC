@@ -347,6 +347,7 @@ p.certificados a{
         display: block;
         margin-left: 7rem;
         margin-right: 4rem;
+        margin-bottom: 1px;
     }
 }
 .link {
