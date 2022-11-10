@@ -19,7 +19,7 @@
 .about-text-content p{
     display: flex;
     flex-direction: row;  
-    margin-top: 8rem;
+    margin-bottom: -8rem;
 }
 
 .about-img img{
@@ -96,7 +96,8 @@ button.curriculum {
     border-radius: 0.8rem;
     text-align: center;
     justify-content: center;
-    margin-left: 8rem;
+    margin-left: 25rem;
+    margin-top: 10rem;
     background: white;
     color: black;
 }
