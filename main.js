@@ -10,4 +10,3 @@ $('.navbar a').on('click', function (e) {
         },800);
     }
   });
- 
