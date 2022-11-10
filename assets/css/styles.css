@@ -188,7 +188,7 @@
     display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
@@ -241,7 +241,7 @@
             width: 0;
         }
         to {
-            width: 20rem;
+            width: 28rem;
         }
     }
     .about-text-content p {
@@ -291,6 +291,17 @@
     .close-menu:checked~.close-menu-label::after {
         display: block;
         content: '×';
+    }
+    button.curriculum {
+        width: 15rem;
+        height: 4.8rem;
+        border-radius: 0.8rem;
+        text-align: center;
+        justify-content: center;
+        margin-left: 25rem;
+        margin-top: 20rem;
+        background: white;
+        color: black;
     }
 
 }
@@ -363,8 +374,8 @@ p.profile {
 }
 
 .line {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /*

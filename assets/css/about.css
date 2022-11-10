@@ -18,9 +18,12 @@
 }
 .about-text-content p{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;  
-    margin-bottom: -8rem;
+    margin-bottom: -18rem;
 }
+
 
 .about-img img{
     max-width: 80%;
@@ -97,7 +100,7 @@ button.curriculum {
     text-align: center;
     justify-content: center;
     margin-left: 25rem;
-    margin-top: 10rem;
+    margin-top: 20rem;
     background: white;
     color: black;
 }
