@@ -343,6 +343,7 @@ p.certificados a{
         margin-bottom: 1.2rem;
     }
     button.curriculum {
+        display: block;
         margin-left: 1px;
         margin-right: 12rem;
     }
