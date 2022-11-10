@@ -347,8 +347,9 @@ p.certificados a{
     color: rgb(116, 114, 114);
     text-decoration: underline;
 }
-.profile img:hover {
-    box-shadow: 0 0 10px 2px silver;
+p.profile {
+    align-items: center;
+    justify-content: center;
 }
 
 /*
