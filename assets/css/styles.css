@@ -326,10 +326,10 @@ p.certificados a{
     width: 180px;
 }
 .certificados a .gcp:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 .certificados a .aws:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 @media (max-width: 420px) {
     .certificados a img.gcp {
