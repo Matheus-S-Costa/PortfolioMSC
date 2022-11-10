@@ -362,5 +362,10 @@ p.profile {
     justify-content: center;
 }
 
+.line {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 /*
 */
