@@ -292,6 +292,7 @@
         display: block;
         content: '×';
     }
+
 }
 .back-to-top {
     position: fixed;
@@ -344,11 +345,8 @@ p.certificados a{
     }
     button.curriculum {
         display: block;
-        margin-left: 1px;
-        margin-right: 12rem;
-    }
-    hr.line {
-        overflow: hidden;
+        margin-left: 7rem;
+        margin-right: 4rem;
     }
 }
 .link {
