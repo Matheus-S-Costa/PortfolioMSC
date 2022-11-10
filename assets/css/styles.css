@@ -346,6 +346,9 @@ p.certificados a{
         margin-left: 1px;
         margin-right: 12rem;
     }
+    hr.line {
+        overflow: hidden;
+    }
 }
 .link {
     color: rgb(116, 114, 114);
