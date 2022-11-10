@@ -342,6 +342,10 @@ p.certificados a{
         width: 145px;
         margin-bottom: 1.2rem;
     }
+    button.curriculum {
+        margin-left: 1px;
+        margin-right: 12rem;
+    }
 }
 .link {
     color: rgb(116, 114, 114);
