@@ -1,0 +1,45 @@
+.habilities-img img{
+    border-radius: 3.2rem;
+    border: 5px solid rgba(0,0,0,0.5);
+}
+.hab:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px silver;
+}
+
+.certificados {
+    margin-top: 8rem;
+    margin-bottom: 20rem;
+}
+.certificate {
+    width: 15rem;
+    height: 4.8rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50rem;
+}
+.about-content h2{
+    display: flex;
+    width: 40rem;
+    text-align: center;
+    border-right: 2px solid var(--white-color);
+    white-space: nowrap;
+    overflow: hidden;
+}
+.grid-one-content h2 {
+    display: flex;
+    width: 40rem;
+    text-align: center;
+    border-right: 2px solid var(--white-color);
+    white-space: nowrap;
+    overflow: hidden;
+}
+.cert {
+    display: flex;
+    width: 40rem;
+    text-align: center;
+    border-right: 2px solid var(--white-color);
+    white-space: nowrap;
+    overflow: hidden;
+}

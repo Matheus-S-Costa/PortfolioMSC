@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 3rem;
+}
+h5 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+h6 {
+    font-size: 8rem;
+    font-family: 'Pacifico', cursive;
+    
+    text-shadow: silver;
+}
+
+a {
+    text-decoration: none;
+}

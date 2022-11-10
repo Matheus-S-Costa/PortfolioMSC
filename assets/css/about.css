@@ -1,0 +1,111 @@
+.about {
+    border-top: 0.1rem solid var(--light-gray-color);
+}
+
+.about-content {
+    position: relative;
+    top: -2rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    height: 100%;
+}
+.about-text-content, .about-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+}
+.about-text-content p{
+    display: flex;
+    flex-direction: row;  
+    margin-top: 8rem;
+}
+
+.about-img img{
+    max-width: 80%;
+    margin-left: 5rem;
+    height: auto;
+}
+
+.about-content h2{
+    display: flex;
+    width: 40rem;
+    text-align: center;
+    border-right: 2px solid var(--white-color);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media (max-width: 780px) {
+  .about-content{
+    display: block;
+  }
+  .about-img {
+    height: 50rem;
+  }  
+  .about-text-content {
+    height: 40rem;
+  }
+  .about-img img{
+    max-width: 60%;
+    margin-left: 5rem;
+    height: auto;
+}
+  .about-img h2{
+    margin-top: 1rem;
+  }
+  .about-text-content p {
+    margin-top: -3rem;
+}
+}
+
+.type-animation {
+    animation: cursor 500ms steps(140) infinite normal, 
+    typing 4s steps(35) 1s normal;
+}
+
+@keyframes cursor{
+    from {
+        border-right-color: #ffffff;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing{
+    from {
+        width: 0;
+    }
+    to {
+        width: 40rem;
+    }
+}
+
+.curriculum {
+    width: 15rem;
+    height: 4.8rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10rem;
+    background: white;
+    color: black;
+}
+.curriculum:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: silver;
+    color: black;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.about-text-content form .curriculum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
