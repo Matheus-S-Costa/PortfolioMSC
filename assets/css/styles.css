@@ -247,9 +247,10 @@
     .about-text-content p {
         margin-top: -3rem;
     }
-    .hab:hover{
+    /* .hab:hover{
         transform: scale(1.1)
     }
+    */
     .menu {
         bottom: 0;
         text-align: center;
