@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   
   /* The actual timeline (the vertical ruler) */
