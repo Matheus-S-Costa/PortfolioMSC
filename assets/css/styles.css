@@ -387,7 +387,7 @@ div.intro-content{
     animation: fromTop 3s .2s backwards;
 }
 
-div.about-content, div.timeline, div.grid-one-content{
+div.about-content, div.timeline, div.grid-one-content, div.contact-form{
     animation: fromBottom 4s .2s backwards;
 }
 
