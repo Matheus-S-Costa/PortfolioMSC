@@ -388,7 +388,7 @@ div.intro-content{
 }
 
 div.about-content, div.timeline, div.grid-one-content{
-    animation: fromBottom .14s backwards;
+    animation: fromBottom 4s .2s backwards;
 }
 
 div.intro-content section:nth-child(1) {
