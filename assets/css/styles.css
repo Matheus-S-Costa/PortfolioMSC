@@ -401,7 +401,7 @@ div.intro-text-content{
 }
 
 div.about-content, div.timeline, div.grid-one-content, div.contact-form, div.intro-img{
-    animation: fromBottom 4s .2s backwards;
+    animation: fromBottom 3s .2s backwards;
 }
 
 div.intro-content section:nth-child(1) {
