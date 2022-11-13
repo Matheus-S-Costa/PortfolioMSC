@@ -52,6 +52,7 @@
     display: block;
   }
   .about-img {
+    display: block;
     height: 50rem;
     margin-top: 5rem;
   } 
