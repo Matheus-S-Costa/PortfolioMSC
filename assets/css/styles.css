@@ -366,6 +366,15 @@ p.certificados a{
     .about-text-content {
         display: block;
     }
+    .about-text-content p {
+        margin-top: 1px;
+    }
+    .about-img .profile {
+        margin-top: 5rem;
+    }
+    .about-img p{
+        margin-right: 5rem;
+    }
 }
 .link {
     color: rgb(116, 114, 114);
