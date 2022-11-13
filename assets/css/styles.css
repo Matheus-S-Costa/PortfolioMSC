@@ -365,6 +365,7 @@ p.certificados a{
     }
     .about-text-content {
         display: block;
+        margin-bottom: 1rem;
     }
     .about-text-content p {
         margin-top: 1px;
@@ -374,6 +375,9 @@ p.certificados a{
     }
     .about-img p{
         margin-right: 5rem;
+    }
+    .about-img {
+        height: 400px;
     }
 }
 .link {
