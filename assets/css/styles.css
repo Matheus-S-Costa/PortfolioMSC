@@ -346,7 +346,7 @@ p.certificados a{
 .certificados a .aws:hover {
     transform: scale(1.3);
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
     .certificados a img.gcp {
         width: 125px;
     }
