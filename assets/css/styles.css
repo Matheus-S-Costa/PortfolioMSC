@@ -7,6 +7,14 @@
     min-height: 100vh;
 }
 
+.title {
+    font-size: 65px;
+}
+.subtitle {
+    font-size: 25px;
+    text-align: center;
+}
+
 .intro-text-content, .intro-img {
     display: flex;
     flex-flow: column wrap;
