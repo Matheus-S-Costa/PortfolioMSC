@@ -355,6 +355,12 @@ p.certificados a{
     transform: scale(1.3);
 }
 @media (max-width: 450px) {
+    .title {
+        font-size: 5rem;
+    }
+    .subtitle {
+        font-size: 3rem;
+    }
     .certificados{
         display: block;
     }
