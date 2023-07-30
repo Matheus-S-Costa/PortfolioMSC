@@ -10,7 +10,9 @@ font-family: 'Open Sans', sans-serif;
 html {
     font-size: 62.5%;
 }
-
+:target {
+    scroll-margin-top: .8em;
+  }
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
