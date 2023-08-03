@@ -457,3 +457,16 @@ div.intro-content section:nth-child(3) {
         transform: translateY(0)  
     }
 }
+
+.hidden {
+    opacity: 0;
+    filter: blur(1px);
+    transition: all 2s;
+    transform: translateX(-90px);
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transition: all 2s;
+    transform: translateX(0);
+}
