@@ -470,5 +470,5 @@ div.intro-content section:nth-child(3) {
     filter: blur(0);
     transition: all 2s;
     transform: translateX(0);
-    transform: translateY(-90)
+    transform: translateY(0px)
 }
