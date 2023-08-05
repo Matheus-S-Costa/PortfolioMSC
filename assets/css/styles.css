@@ -15,6 +15,13 @@
     text-align: center;
 }
 
+.tema {
+    padding: 18px;
+    text-align: center;
+    justify-content: center;
+    color: var(--white-color);
+}
+
 .intro-text-content, .intro-img {
     display: flex;
     flex-flow: column wrap;
@@ -151,6 +158,7 @@
 .form-group .txt {
     border: none;
     background: var(--white-color);
+    color: var(--primary-color);
     padding: 1.5rem 2rem;
     width: 100%;
     font-size: 1.5rem;
