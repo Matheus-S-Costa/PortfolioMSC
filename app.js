@@ -7,7 +7,6 @@ const lightTheme = {
     '--secondary-color': '#f0f0f0',
     '--menu-color': '#b4b4b4',
     '--white-color': '#111111',
-    '--light-gray-color': 'black',
     '--background': 'url(../images/main-light-bg.svg)',
 }
 const darkTheme = {

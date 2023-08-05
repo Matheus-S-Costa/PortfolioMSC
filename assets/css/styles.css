@@ -480,3 +480,6 @@ div.intro-content, div.about-content section:nth-child(3) {
     transform: translateX(0);
     transform: translateY(0px);
 }
+input::placeholder textarea::placeholder {
+    color: silver;
+}
