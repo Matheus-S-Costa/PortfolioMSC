@@ -10,9 +10,14 @@ const myObserver = new IntersectionObserver( (entries) => {
 
 const elements = document.querySelectorAll('.hidden')
 
+
 elements.forEach( (element) => myObserver.observe(element) )
 
 
+
+
+
+/*---------------------------------------------------------------------*/
 $('.navbar a').on('click', function (e) {
   if (this.hash !== '') {
     e.preventDefault();
