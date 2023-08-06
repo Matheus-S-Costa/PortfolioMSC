@@ -8,6 +8,7 @@ const lightTheme = {
     '--menu-color': '#b4b4b4',
     '--white-color': '#111111',
     '--background': 'url(../images/main-light-bg.svg)',
+    '.github': 'assets/images/github-dark.png',
 }
 const darkTheme = {
     '--background-color': '#121214',
@@ -17,6 +18,7 @@ const darkTheme = {
     '--light-gray-color': 'silver',
     '--white-color': '#ffffff',
     '--background': 'url(../images/main-bgg.svg)',
+    '.github': 'assets/images/github-logo.png',
 }
 
 inputContainer.addEventListener('change', function() {

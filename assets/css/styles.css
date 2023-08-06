@@ -44,18 +44,17 @@
 
 .intro-content p a img {  
     display: flex;
-    width: 12rem;
-    height: 12rem;
+    width: 9rem;
+    height: 9rem;
 }
 
 .intro-content p a .github{
-    width: 10rem;
-    height: 10rem;
+    width: 8.5rem;
+    height: 8.5rem;
     margin-top: 0.5rem;
 }
 .linkedin{
     height: 9rem;
-    padding-bottom: 11rem;
 }
 
 .intro-content p a img:hover {
