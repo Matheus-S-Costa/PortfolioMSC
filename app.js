@@ -23,8 +23,10 @@ inputContainer.addEventListener('change', function() {
   const isChecked = inputContainer.checked
   if (isChecked) {
     changeTheme(lightTheme)
+    save(lightTheme)
   } else {
     changeTheme(darkTheme)
+    save(darkTheme)
   }
 
 })

@@ -42,16 +42,20 @@
     align-items: center;
 }
 
-.intro-content p a img{  
+.intro-content p a img {  
     display: flex;
     width: 12rem;
     height: 12rem;
 }
 
 .intro-content p a .github{
-    width: 9rem;
-    height: 9rem;
+    width: 10rem;
+    height: 10rem;
     margin-top: 0.5rem;
+}
+.linkedin{
+    height: 9rem;
+    padding-bottom: 11rem;
 }
 
 .intro-content p a img:hover {
