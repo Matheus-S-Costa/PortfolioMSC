@@ -537,4 +537,5 @@ input::placeholder textarea::placeholder {
 }
 .switch .switch-wrapper input:checked + .switch-button::before {
     transform: translateX(26px);
+    background-color: lightgray;
 }
