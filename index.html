@@ -1,345 +1,463 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio | Matheus Costa</title>
-    <link rel="icon" href="assets/images/perfil.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="assets/images/perfil.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/variables.css">
-    <link rel="stylesheet" href="./assets/css/elements.css">
-    <link rel="stylesheet" href="./assets/css/classes.css">
-    <link rel="stylesheet" href="./assets/css/menu.css">
-    <link rel="stylesheet" href="./assets/css/timeline.css">
-    <link rel="stylesheet" href="./assets/css/about.css">
-    <link rel="stylesheet" href="./assets/css/habilities.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/variables.css" />
+    <link rel="stylesheet" href="./assets/css/elements.css" />
+    <link rel="stylesheet" href="./assets/css/classes.css" />
+    <link rel="stylesheet" href="./assets/css/menu.css" />
+    <link rel="stylesheet" href="./assets/css/timeline.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/habilities.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
 
-</head>
-
-<body>
-    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button" aria-pressed="true">
+  <body>
+    <input
+      id="close-menu"
+      class="close-menu"
+      type="checkbox"
+      aria-label="close menu"
+      role="button"
+      aria-pressed="true"
+    />
     <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu menu-bg">
-        <div class="limit">
-            <div class="main-content menu-content">
-                <h1 onclick="getElementById('close-menu').checked = false;">
-                    <a class="top" href="#"><img class="typing-animation" src="./assets/images/logo.png" alt="Logo"></a>
-                </h1>
-                <nav class="navbar">
-                    <ul onclick="getElementById('close-menu').checked = false;">
-                        <li>
-                            <div class="tema">
-                                <label class="switch" for="theme">
-                                    <span class="switch-text">Tema</span>
-                                    <div class="switch-wrapper">
-                                    <input class="input" type="checkbox" name="theme" id="theme">
-                                    <span class="switch-button"></span>
-                                </div>
-                                </label>
-                            </div>
-                        </li>
-                        <li><a href="#sobre-mim">Sobre mim</a></li>
-                        <li><a href="#habilidades">Habilidades</a></li>
-                        <li><a href="#projetos">Projetos</a></li>
-                        <li><a href="#contatos">Contatos</a></li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="limit">
+        <div class="main-content menu-content">
+          <h1 onclick="getElementById('close-menu').checked = false;">
+            <a class="top" href="#"
+              ><img
+                class="typing-animation"
+                src="./assets/images/logo.png"
+                alt="Logo"
+            /></a>
+          </h1>
+          <nav class="navbar">
+            <ul onclick="getElementById('close-menu').checked = false;">
+              <li>
+                <div class="tema">
+                  <label class="switch" for="theme">
+                    <span class="switch-text">Tema</span>
+                    <div class="switch-wrapper">
+                      <input
+                        class="input"
+                        type="checkbox"
+                        name="theme"
+                        id="theme"
+                      />
+                      <span class="switch-button"></span>
+                    </div>
+                  </label>
+                </div>
+              </li>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#contatos">Contatos</a></li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </aside>
 
     <div class="menu-spacing"></div>
 
     <section class="intro main-bg section hidden">
-        <div class="main-content intro-content">
-            <div class="intro-text-content">
-                <h6 class="title">
-                    Matheus Costa
-                </h6>
-                <h4 class="subtitle">
-                    Desenvolvedor de software
-                </h4>
-                <br>
-                <p>
-                    <a target="_blank" href="https://github.com/Matheus-S-Costa"><img class="github"
-                            src="assets/images/github-logo.png" alt="github"></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/matheus-s-costaa/" class="linkedin"><img
-                            src="assets/images/linkedin-logo.png" alt="linkedin"></a>
-                </p>
-                <br>
-            </div>
-            <div class="intro-img">
-                <img src="assets/images/undraw.svg" alt="Programando">
-            </div>
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h6 class="title">Matheus Costa</h6>
+          <h4 class="subtitle">Desenvolvedor de software</h4>
+          <br />
+          <p>
+            <a target="_blank" href="https://github.com/Matheus-S-Costa"
+              ><img
+                class="github"
+                src="assets/images/github-logo.png"
+                alt="github"
+            /></a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/matheus-s-costaa/"
+              class="linkedin"
+              ><img src="assets/images/linkedin-logo.png" alt="linkedin"
+            /></a>
+          </p>
+          <br />
         </div>
+        <div class="intro-img">
+          <img src="assets/images/undraw.svg" alt="Programando" />
+        </div>
+      </div>
     </section>
 
-    <section id='sobre-mim' class="about secondary-bg section hidden">
-        <div class="main-content about-content">
-            <div class="about-img">
-                <h5>
-                    sobre mim 📄
-                </h5>
-                <br><br><br>
-                <p class="profile">
-                    <img src="assets/images/perfil.png" alt="imagem matheus programando">
-                </p>
-            </div>
-            <div class="about-text-content">
-                <p>Estou graduando em engenharia de computação e tenho enorme interesse e entusiasmo para aprender
-                    coisas
-                    novas.
-                    <br> <br> <br>
-                    Técnico em eletrônica com mais de 2 anos de experiência profissional em macOS e iOS, atualmente
-                    meu foco de aprendizado são tecnologias e ferramentas de desenvolvimento front-end, como javascript
-                    e react. Além disso, estou me aprofundando na plataforma CRM Salesforce na Arcelomittal.
-                    <br> <br>
-                </p>
-                <form target="_blank" method="get" action="assets/images/CurriculoMatheusCosta.pdf">
-                    <button class='curriculum' type="submit">Meu currículo</button>
-                </form>
+    <section id="sobre-mim" class="about secondary-bg section hidden">
+      <div class="main-content about-content">
+        <div class="about-img">
+          <h5>sobre mim 📄</h5>
+          <br /><br /><br />
+          <p class="profile">
+            <img
+              src="assets/images/perfil.png"
+              alt="imagem matheus programando"
+            />
+          </p>
+        </div>
+        <div class="about-text-content">
+        <p>
+            Estou graduando em engenharia de computação e tenho enorme interesse
+            e entusiasmo para aprender coisas novas. 
+        </p>
+        <p>
+            Técnico em eletrônica com mais de 2 anos de experiência profissional
+            em macOS e iOS, atualmente meu foco de aprendizado são tecnologias e
+            ferramentas de desenvolvimento front-end, como javascript e react.
+            Além disso, estou me aprofundando na plataforma CRM Salesforce na
+            Arcelomittal.
+        </p>
+            <br />
+          </p>
+          <form
+            target="_blank"
+            method="get"
+            action="assets/images/CurriculoMatheusCosta.pdf"
+          >
+            <button class="curriculum" type="submit">Meu currículo</button>
+          </form>
 
-                <br><br>
+          <br /><br />
+        </div>
+      </div>
+      <div class="line">
+        <hr />
+      </div>
+      <br /><br /><br /><br />
+      <div class="bg secondary-bg">
+        <div class="timeline hidden">
+          <div class="container left">
+            <div class="content">
+              <h3 class="p-tm">Eletrônica • Coltec-UFMG (2017-2019)</h3>
+              <p class="p-tm">
+                Neste período fui introduzido à lógica de programação com C e
+                usei o software interativo matlab. Me aprofundei em conceitos de
+                eletrônica aplicada, onde inclusive desenvolvi um projeto de uma
+                planta residencial. Tive e estou tendo contato com linux.
+              </p>
             </div>
-        </div>
-        <div class="line">
-            <hr>
-        </div>
-        <br><br><br><br>
-        <div class="bg secondary-bg">
-            <div class="timeline hidden">
-                <div class="container left">
-                    <div class="content">
-                        <h3 class="p-tm">Eletrônica • Coltec-UFMG (2017-2019)</h3>
-                        <p class="p-tm">Neste período fui introduzido à lógica de programação com C e usei o software
-                            interativo
-                            matlab. Me aprofundei em conceitos de eletrônica aplicada, onde inclusive desenvolvi
-                            um projeto de uma planta residencial. Tive e estou tendo contato com linux.</p>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <h3 class="p-tm">Técnico em eletrônica • Tecnosys (2020-2022)</h3>
-                        <p class="p-tm">Em suma, fui técnico em uma
-                            assistência técnica autorizada
-                            Apple. Neste período fiz manutenções e diagnósticos em equipamentos Apple (macOS e iOS) com
-                            redação de laudos técnicos, reparos, manipulação de componentes eletrônicos e serviços em
-                            software. Alem das habilidades técnicas foram desenvolvidas diversas soft skills com
-                            atendimento direto ao cliente.</p>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <h3 class="p-tm">Engenharia de computação • UNA (2020-2024)</h3>
-                        <p class="p-tm">Meu foco é aprofundar em desenvolvimento de sistemas, estou utilizando softwares
-                            de computação em
-                            nuvem da AWS, python, para backend e para análise de dados. Além de javascript, html e css
-                            para
-                            desenvolvimento web. </p>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <h3 class="p-tm">Iniciação Científica • Ânima (ago 2022 - fev 2023)</h3>
-                        <p class="p-tm">Projeto de iniciação científica cujo objetivo é desenvolver uma plataforma
-                            direcionada ao gerenciamento dos alunos de intercâmbio em cada instituição de ensino
-                            superior pertencente à organização educacional ânima. O front-end (parte visual) foi feito
-                            com nuxt.js e o backend (microsserviços) com .Net.
-                        </p>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <h3 class="p-tm">Salesforce funcional • Arcelormittal (jun 2023 - atualmente)</h3>
-                        <p class="p-tm">
-                            Estágio em que meu foco é área de desenvolvimento, as principais atividades que estou
-                            desenvolvendo nesse período são: <br>
-                            - Assistência ao sistema Salesforce; <br>
-                            - Análise de incidentes e teste de soluções em código apex, dando direcionamento para a
-                            tratativa; <br>
-                            - Elaboração de cards na plataforma DevOps; <br>
-                            - Análise de dados Salesforce e configuração de sistema; <br>
-                        </p>
-                    </div>
-                </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h3 class="p-tm">Técnico em eletrônica • Tecnosys (2020-2022)</h3>
+              <p class="p-tm">
+                Em suma, fui técnico em uma assistência técnica autorizada
+                Apple. Neste período fiz manutenções e diagnósticos em
+                equipamentos Apple (macOS e iOS) com redação de laudos técnicos,
+                reparos, manipulação de componentes eletrônicos e serviços em
+                software. Alem das habilidades técnicas foram desenvolvidas
+                diversas soft skills com atendimento direto ao cliente.
+              </p>
             </div>
-            <br><br>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h3 class="p-tm">Engenharia de computação • UNA (2020-2024)</h3>
+              <p class="p-tm">
+                Meu foco é aprofundar em desenvolvimento de sistemas, estou
+                utilizando softwares de computação em nuvem da AWS, python, para
+                backend e para análise de dados. Além de javascript, html e css
+                para desenvolvimento web.
+              </p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h3 class="p-tm">
+                Iniciação Científica • Ânima (ago 2022 - fev 2023)
+              </h3>
+              <p class="p-tm">
+                Projeto de iniciação científica cujo objetivo é desenvolver uma
+                plataforma direcionada ao gerenciamento dos alunos de
+                intercâmbio em cada instituição de ensino superior pertencente à
+                organização educacional ânima. O front-end (parte visual) foi
+                feito com nuxt.js e o backend (microsserviços) com .Net.
+              </p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h3 class="p-tm">
+                Salesforce funcional • Arcelormittal (jun 2023 - atualmente)
+              </h3>
+              <p class="p-tm">
+                Estágio em que meu foco é área de desenvolvimento, as principais
+                atividades que estou desenvolvendo nesse período são: <br />
+                - Assistência ao sistema Salesforce; <br />
+                - Análise de incidentes e teste de soluções em código apex,
+                dando direcionamento para a tratativa; <br />
+                - Elaboração de cards na plataforma DevOps; <br />
+                - Análise de dados Salesforce e configuração de sistema; <br />
+              </p>
+            </div>
+          </div>
         </div>
+        <br /><br />
+      </div>
     </section>
 
     <!--
     <hr> <hr>
     -->
 
-    <section id="habilidades" class="contatos habilidades terciary-bg section hidden">
-        <div class="main-content grid-one-content">
-            <br><br><br><br>
-            <h2 class="type-animation">
-                Habilidades
-            </h2>
-            <br>
-            <p>Cada linguagem tem seus pontos fortes e fracos, busco explorar os pontos fortes de cada uma, sempre
-                pesquisando sobre e me atentando às novidades. Algumas ferramentas e linguagens que mais utilizo: </p>
-            <br><br><br>
-            <div class="grid">
-                <div class="habilities-img">
-                    <img class='hab' src="assets/images/frontendb.png" alt="front-end">
-                </div>
-                <div class="habilities-img">
-                    <img class='hab' src="assets/images/backendb.png" alt="backend-end">
-                </div>
-                <div class="habilities-img">
-                    <img class='hab' src="assets/images/devopsb.png" alt="devops">
-                </div>
-            </div>
+    <section
+      id="habilidades"
+      class="contatos habilidades terciary-bg section hidden"
+    >
+      <div class="main-content grid-one-content">
+        <br /><br /><br /><br />
+        <h2 class="type-animation">Habilidades</h2>
+        <br />
+        <p>
+          Cada linguagem tem seus pontos fortes e fracos, busco explorar os
+          pontos fortes de cada uma, sempre pesquisando sobre e me atentando às
+          novidades. Algumas ferramentas e linguagens que mais utilizo:
+        </p>
+        <br /><br /><br />
+        <div class="grid">
+          <div class="habilities-img">
+            <img
+              class="hab"
+              src="assets/images/frontendb.png"
+              alt="front-end"
+            />
+          </div>
+          <div class="habilities-img">
+            <img
+              class="hab"
+              src="assets/images/backendb.png"
+              alt="backend-end"
+            />
+          </div>
+          <div class="habilities-img">
+            <img class="hab" src="assets/images/devopsb.png" alt="devops" />
+          </div>
         </div>
-        <div class="main-content">
-            <h2 class="type-animation cert">Certificado</h2>
-            <p class="certificados">
-                Estou sempre em busca de construir novos métodos que facilitem nosso dia-a-dia, tanto para empresas
-                quanto para uso pessoal. <br><br>
-                Possuo alguns <a target="_blank" class="link"
-                    href="https://drive.google.com/drive/folders/1jwOozs2G5rkWRYNifckZIb-g8UxVrT6e"><i><b>certificados</b></i></a>
-                de
-                cursos em empresas renomadas, como udemy, google cloud skills boost, aws e
-                cisco. Tais cursos servem para me manter atualizado em relação às tecnologias e ferramentas que o
-                mercado de trabalho mais requer atualmente. <br><br>
-                <a target="_blank"
-                    href="https://www.credly.com/badges/6a01440b-64e7-44df-905f-665261605185/linked_in_profile"><img
-                        class="aws" src="assets/images/badgeAws.png" alt="badge AWS"></a>
-                <a target="_blank"
-                    href="https://www.cloudskillsboost.google/public_profiles/65defd22-934f-41f6-8129-298a7f355608/badges/2742013"><img
-                        class="gcp" src="assets/images/badgegc.png" alt="badge GCP"></a>
-            </p>
-        </div>
+      </div>
+      <div class="main-content">
+        <h2 class="type-animation cert">Certificado</h2>
+        <p class="certificados">
+          Estou sempre em busca de construir novos métodos que facilitem nosso
+          dia-a-dia, tanto para empresas quanto para uso pessoal. <br /><br />
+          Possuo alguns
+          <a
+            target="_blank"
+            class="link"
+            href="https://drive.google.com/drive/folders/1jwOozs2G5rkWRYNifckZIb-g8UxVrT6e"
+            ><i><b>certificados</b></i></a
+          >
+          de cursos em empresas renomadas, como udemy, google cloud skills
+          boost, aws e cisco. Tais cursos servem para me manter atualizado em
+          relação às tecnologias e ferramentas que o mercado de trabalho mais
+          requer atualmente. <br /><br />
+          <a
+            target="_blank"
+            href="https://www.credly.com/badges/6a01440b-64e7-44df-905f-665261605185/linked_in_profile"
+            ><img class="aws" src="assets/images/badgeAws.png" alt="badge AWS"
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.cloudskillsboost.google/public_profiles/65defd22-934f-41f6-8129-298a7f355608/badges/2742013"
+            ><img class="gcp" src="assets/images/badgegc.png" alt="badge GCP"
+          /></a>
+        </p>
+      </div>
     </section>
 
     <section id="projetos" class="projetos secondary-bg section hidden">
-        <div class="main-content grid-one-content">
-            <br><br><br><br>
-            <h5>PROJETOS</h5>
-            <br>
-            <p>Alguns projetos recentes que desenvolvi.</p>
-            <br><br><br>
-            <div class="grid">
-                <article>
-                    <br><br>
-                    <h4>Análise de vendas</h4>
-                    <br>
-                    <p>Utilizando python serão lidos todos os dados de 6 tabelas de vendas de uma empresa x, para
-                        verificar qual vendedor bateu a
-                        meta no mês, no caso estipulada em 55.000.
-                        <br>
-                        A partir do momento que for verificado que o funcionário x bateu a meta estipulada, será enviado
-                        um SMS para o gerente com a informacao do nome do vendedor e a quantidade de vendas.
-                    </p>
-                    <br><br>
-                    <form method="get" action="https://github.com/Matheus-S-Costa/Analise_vendas">
-                        <button class='project-button' type="submit">Ver no Github</button>
-                    </form>
-                </article>
-                <article>
-                    <br><br>
-                    <h4>Anúncios eSports</h4>
-                    <br>
-                    <p>Neste projeto foi criada uma página web para players de diferentes jogos que se comunica com um
-                        servidor utilizando principalmente react para o front-end e node para o back-end. A página web
-                        possui um
-                        banner com as opções de games e uma box para o usuário criarem os anúncios. O projeto foi
-                        desenvolvido durante a NLW da Rocketseat.
-                    </p>
-                    <br><br><br>
-                    <form method="get" action="https://github.com/Matheus-S-Costa/eSports-web">
-                        <button class='project-button' type="submit">Ver no Github</button>
-                    </form>
-                </article>
-                <article>
-                    <br><br>
-                    <h4>Automação</h4>
-                    <br>
-                    <p>Neste projeto foi realizada a automação de uma tarefa de uma empresa para ser baixado o arquivo
-                        com a tabela de
-                        vendas de um mês x, calcular o somatório da quantidade de produtos vendidos e o
-                        faturamento do mês. Após isso, um email será enviado para o destinatário com as informações
-                        escritas e calculadas pelo python com a lib pandas.
-                    </p>
-                    <br><br><br>
-                    <form method="get" action="https://github.com/Matheus-S-Costa/Automacao">
-                        <button class='project-button' type="submit">Ver no Github</button>
-                    </form>
-                </article>
-            </div>
+      <div class="main-content grid-one-content">
+        <br /><br /><br /><br />
+        <h5>PROJETOS</h5>
+        <br />
+        <p>Alguns projetos recentes que desenvolvi.</p>
+        <br /><br /><br />
+        <div class="grid">
+          <article>
+            <br /><br />
+            <h4>Análise de vendas</h4>
+            <br />
+            <p>
+              Utilizando python serão lidos todos os dados de 6 tabelas de
+              vendas de uma empresa x, para verificar qual vendedor bateu a meta
+              no mês, no caso estipulada em 55.000.
+              <br />
+              A partir do momento que for verificado que o funcionário x bateu a
+              meta estipulada, será enviado um SMS para o gerente com a
+              informacao do nome do vendedor e a quantidade de vendas.
+            </p>
+            <br /><br />
+            <form
+              method="get"
+              action="https://github.com/Matheus-S-Costa/Analise_vendas"
+            >
+              <button class="project-button" type="submit">
+                Ver no Github
+              </button>
+            </form>
+          </article>
+          <article>
+            <br /><br />
+            <h4>Anúncios eSports</h4>
+            <br />
+            <p>
+              Neste projeto foi criada uma página web para players de diferentes
+              jogos que se comunica com um servidor utilizando principalmente
+              react para o front-end e node para o back-end. A página web possui
+              um banner com as opções de games e uma box para o usuário criarem
+              os anúncios. O projeto foi desenvolvido durante a NLW da
+              Rocketseat.
+            </p>
+            <br /><br /><br />
+            <form
+              method="get"
+              action="https://github.com/Matheus-S-Costa/eSports-web"
+            >
+              <button class="project-button" type="submit">
+                Ver no Github
+              </button>
+            </form>
+          </article>
+          <article>
+            <br /><br />
+            <h4>Automação</h4>
+            <br />
+            <p>
+              Neste projeto foi realizada a automação de uma tarefa de uma
+              empresa para ser baixado o arquivo com a tabela de vendas de um
+              mês x, calcular o somatório da quantidade de produtos vendidos e o
+              faturamento do mês. Após isso, um email será enviado para o
+              destinatário com as informações escritas e calculadas pelo python
+              com a lib pandas.
+            </p>
+            <br /><br /><br />
+            <form
+              method="get"
+              action="https://github.com/Matheus-S-Costa/Automacao"
+            >
+              <button class="project-button" type="submit">
+                Ver no Github
+              </button>
+            </form>
+          </article>
         </div>
+      </div>
     </section>
     <section id="contatos" class="intro terciary-bg section hidden">
-        <div class="main-content intro-content">
-            <div class="intro-text-content">
-                <br><br><br>
-                <h2>Contatos
-                </h2>
-                <p>
-                    Vamos trabalhar juntos? <br><br>
-                    Ficarei contente em compartilhar conhecimentos e trocar informações, ter uma rede de contatos
-                    é de suma importância. Contate-me para conversarmos!
-                </p>
-            </div>
-            <div class="intro-img">
-                <img src="assets/images/contact.svg" alt="Contatos">
-            </div>
-            <br><br><br>
-            <div class="contact-form">
-                <form action="https://formsubmit.co/matheusilva334@gmail.com" method="POST">
-                    <fieldset class="form-grid">
-                        <legend>Contate-me</legend>
-                        <div class="form-group">
-                            <label for="first-name">Primeiro nome</label>
-                            <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
-                        </div>
-                        <div class="form-group">
-                            <label for="last-name">Último nome</label>
-                            <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email" placeholder="refused@examplo.com">
-                        </div>
-                        <div class="form-group full-width">
-                            <label for="message">Mensagem</label>
-                            <textarea class="txt" name="message" id="message" cols="30" rows="10"
-                                placeholder="Sua mensagem"></textarea>
-                        </div>
-                        <input type="hidden" name="_next" value="https://myportfoliomsc.netlify.app/">
-                        <div class="form-group full-width">
-                            <button type="submit">Enviar mensagem</button>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <br /><br /><br />
+          <h2>Contatos</h2>
+          <p>
+            Vamos trabalhar juntos? <br /><br />
+            Ficarei contente em compartilhar conhecimentos e trocar informações,
+            ter uma rede de contatos é de suma importância. Contate-me para
+            conversarmos!
+          </p>
         </div>
+        <div class="intro-img">
+          <img src="assets/images/contact.svg" alt="Contatos" />
+        </div>
+        <br /><br /><br />
+        <div class="contact-form">
+          <form
+            action="https://formsubmit.co/matheusilva334@gmail.com"
+            method="POST"
+          >
+            <fieldset class="form-grid">
+              <legend>Contate-me</legend>
+              <div class="form-group">
+                <label for="first-name">Primeiro nome</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="Seu nome"
+                />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Último nome</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  placeholder="Seu sobrenome"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="refused@examplo.com"
+                />
+              </div>
+              <div class="form-group full-width">
+                <label for="message">Mensagem</label>
+                <textarea
+                  class="txt"
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Sua mensagem"
+                ></textarea>
+              </div>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://myportfoliomsc.netlify.app/"
+              />
+              <div class="form-group full-width">
+                <button type="submit">Enviar mensagem</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
     </section>
+    <div class="gtranslate_wrapper"></div>
+    <script>window.gtranslateSettings = {"default_language":"pt","native_language_names":true,"detect_browser_language":true,"languages":["pt","en"],"wrapper_selector":".gtranslate_wrapper","alt_flags":{"en":"usa","pt":"brazil"}}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
 
-    <footer id='footer' class="footer">
-        <p>Matheus Costa ©️ 2023</p>
+    <footer id="footer" class="footer">
+      <p>Matheus Costa ©️ 2023</p>
     </footer>
     <a class="back-to-top" href="#">➤</a>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
